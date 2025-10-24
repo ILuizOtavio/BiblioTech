@@ -1,5 +1,10 @@
 {
   "homepage": "https://iluizotavio.github.io/BiblioTech",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
   "name": "bibliotech",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +22,9 @@
     "tsparticles": "^3.9.1",
     "web-vitals": "^2.1.4"
   },
+   "rules": {
+      "react/react-in-jsx-scope": "off"
+    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
