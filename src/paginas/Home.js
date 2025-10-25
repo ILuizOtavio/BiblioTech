@@ -38,7 +38,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: 0, margin: 0 }}>
       <Header/>
 
       {/* busca */}
